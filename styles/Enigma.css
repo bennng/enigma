@@ -1,0 +1,39 @@
+.enigma-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+  }
+  
+  .settings,
+  .message,
+  .actions,
+  .result {
+    margin-bottom: 20px;
+  }
+  
+  .settings div,
+  .message div,
+  .actions div {
+    margin-bottom: 10px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  select, input[type="number"], input[type="text"], textarea {
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 1rem;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
